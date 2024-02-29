@@ -67,6 +67,11 @@ section{
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     gap: 20px;
     padding: 20px;
+   
+    /* Nuevas Propiedades para Centrar y Limitar a 3 Columnas */
+    justify-content: center; /* Para centrar horizontalmente */
+     max-width: 70%;/* Ajusta según tu diseño para limitar a 3 columnas */
+    margin: 0 auto; /* Para centrar en el eje horizontal */
 }
 
 .item{
