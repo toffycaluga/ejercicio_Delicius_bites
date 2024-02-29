@@ -5,6 +5,9 @@
     --color-text: ;
     --color-text-primary:#FFF ;
     --background-color: #03071e;
+    --border-bottom-color:#303030;
+    --color-card:#ebe8e8;
+    --color-card-text:#333
 }
 
 
@@ -42,4 +45,37 @@ nav ul li a{
     text-decoration:none;
     color: var(--color-text-primary);
     font-weight: bold;
+}
+#menu{
+    text-align:center;
+    background-color:var(--background-color);
+    color: var(--color-text-primary);
+    text-align: center;
+}
+.title-container {
+    display:block ; /* Hace que el contenedor se ajuste al ancho del contenido */
+    border-bottom:3px solid var(--border-bottom-color) ; /* Ajusta el grosor y el color del borde según tus necesidades */
+    margin-bottom: 10px;
+    width: 70%;
+    margin-left:15%
+
+}
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    background-color: var(--color-card);
+    border: 1px solid var(--border-bottom-color);
+    color:var(--color-card-text); 
+    padding: 10px;
+    text-align: center;
+}
+.item img{
+    max-width: 100%;
+    height:auto;
 }
