@@ -13,7 +13,8 @@ CSS Grid es un sistema de diseño bidimensional que permite organizar y distribu
 
 Este diseño proporciona una estructura clara y flexible para organizar el contenido de la página de manera efectiva.
 
-## Funcionamiento de las Variables en CSS
+## Bonus
+### Funcionamiento de las Variables en CSS
 
 Las variables CSS, también conocidas como custom properties, permiten almacenar valores que se pueden reutilizar en todo el archivo CSS. En este proyecto, se han utilizado variables para definir colores y estilos clave de manera centralizada. Aquí están algunas variables utilizadas:
 
@@ -22,7 +23,6 @@ Las variables CSS, también conocidas como custom properties, permiten almacenar
 - `--color-card`: Color de fondo de las tarjetas de menú.
 - `--color-card-text`: Color del texto dentro de las tarjetas.
 
-## Bonus
 
 ### Variables en CSS (Bonus)
 
