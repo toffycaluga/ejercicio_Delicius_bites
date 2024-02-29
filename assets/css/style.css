@@ -1,3 +1,15 @@
+
+:root{
+    --primary: #6a040f;
+    --secondary: ;
+    --color-text: ;
+    --color-text-primary:#FFF ;
+    --background-color: #ffba08;
+}
+
+
+
+
 *,body{
     margin:0;
     padding:0;
@@ -11,4 +23,23 @@ body {
         ;
     grid-template-rows: auto 1fr auto;/*Ajusta las alturas segun sea necesario*/
     min-height: 100vh; /* Asegura que el body ocupe al menos el 100% del alto de la ventana */
+}
+header{
+    background-color: var(--primary);
+    color: var(--color-text-primary);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type:none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin:20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: var(--color-text-primary);
+    font-weight: bold;
 }
