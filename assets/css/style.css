@@ -1,13 +1,13 @@
 
 :root{
-    --primary: #6a040f;
+    --primary: #888081;
     --secondary: ;
     --color-text: ;
     --color-text-primary:#FFF ;
     --background-color: #03071e;
     --border-bottom-color:#303030;
     --color-card:#ebe8e8;
-    --color-card-text:#333
+    --color-card-text:#333;
 }
 
 
@@ -46,11 +46,12 @@ nav ul li a{
     color: var(--color-text-primary);
     font-weight: bold;
 }
-#menu{
+section{
     text-align:center;
     background-color:var(--background-color);
     color: var(--color-text-primary);
     text-align: center;
+    padding: 20px;
 }
 .title-container {
     display:block ; /* Hace que el contenedor se ajuste al ancho del contenido */
@@ -79,3 +80,12 @@ nav ul li a{
     max-width: 100%;
     height:auto;
 }
+footer {
+    background-color: #333;
+    color: var(--color-text-primary);
+    text-align: center;
+    padding: 10px;
+
+    bottom: 0;
+  
+  }
