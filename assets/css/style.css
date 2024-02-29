@@ -2,3 +2,13 @@
     margin:0;
     padding:0;
 }
+body {
+    display:grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        ;
+    grid-template-rows: auto 1fr auto;/*Ajusta las alturas segun sea necesario*/
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% del alto de la ventana */
+}
